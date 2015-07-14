@@ -13,6 +13,8 @@
 		2527C69E1B5505D400789904 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2527C69D1B5505D400789904 /* Images.xcassets */; };
 		2527C6A11B5505D400789904 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2527C69F1B5505D400789904 /* LaunchScreen.xib */; };
 		2527C6AD1B5505D400789904 /* AvatarMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2527C6AC1B5505D400789904 /* AvatarMakerTests.swift */; };
+		2527C6B71B55073400789904 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2527C6B61B55073400789904 /* MainViewController.swift */; };
+		2527C6B91B55074500789904 /* WearPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2527C6B81B55074500789904 /* WearPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		2527C6A61B5505D400789904 /* AvatarMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvatarMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2527C6AB1B5505D400789904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2527C6AC1B5505D400789904 /* AvatarMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarMakerTests.swift; sourceTree = "<group>"; };
+		2527C6B61B55073400789904 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2527C6B81B55074500789904 /* WearPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WearPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				2527C6961B5505D400789904 /* AppDelegate.swift */,
 				2527C6981B5505D400789904 /* ViewController.swift */,
 				2527C69A1B5505D400789904 /* Main.storyboard */,
+				2527C6B61B55073400789904 /* MainViewController.swift */,
+				2527C6B81B55074500789904 /* WearPickerViewController.swift */,
 				2527C69D1B5505D400789904 /* Images.xcassets */,
 				2527C69F1B5505D400789904 /* LaunchScreen.xib */,
 				2527C6941B5505D400789904 /* Supporting Files */,
@@ -212,6 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2527C6B71B55073400789904 /* MainViewController.swift in Sources */,
+				2527C6B91B55074500789904 /* WearPickerViewController.swift in Sources */,
 				2527C6991B5505D400789904 /* ViewController.swift in Sources */,
 				2527C6971B5505D400789904 /* AppDelegate.swift in Sources */,
 			);
