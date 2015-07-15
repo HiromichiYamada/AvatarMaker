@@ -37,4 +37,11 @@ class MainViewController: UIViewController {
 		}
 	}
 	
+	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+		if( segue.identifier == "showWearPicker" ){
+			var wearPickerVC	= segue.destinationViewController as! WearPickerViewController
+			// ピッカー画面に遷移.
+			
+		}
+	}
 }
