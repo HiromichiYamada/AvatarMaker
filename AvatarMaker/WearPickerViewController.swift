@@ -8,7 +8,12 @@
 
 import UIKit
 
+protocol WearPickerProtocol {
+	func wearImageSelected( wearImageName: String )
+}
+
 class WearPickerViewController: UIViewController {
+	var wearPickerDelegate: WearPickerProtocol?
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -41,6 +46,9 @@ class WearPickerViewController: UIViewController {
 		println("select - \(imageName)")
 		
 		// TODO: 実装.
+		if( wearPickerDelegate != nil ){
+			wearPickerDelegate?.wearImageSelected(imageName)
+		}
 		
 		self.navigationController?.popViewControllerAnimated(true)
 	}

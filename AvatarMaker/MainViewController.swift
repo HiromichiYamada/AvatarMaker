@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class MainViewController: UIViewController, WearPickerProtocol {
 	
 	@IBOutlet weak var wearImageView: UIImageView!
 	
@@ -41,7 +41,12 @@ class MainViewController: UIViewController {
 		if( segue.identifier == "showWearPicker" ){
 			var wearPickerVC	= segue.destinationViewController as! WearPickerViewController
 			// ピッカー画面に遷移.
-			
+			wearPickerVC.wearPickerDelegate	= self
 		}
+	}
+	
+	// protocol実装
+	func wearImageSelected(wearImageName: String) {
+		self.wearImageName	= wearImageName
 	}
 }
