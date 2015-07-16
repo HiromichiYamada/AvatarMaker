@@ -1,6 +1,7 @@
 # AvatarMaker
 
 Delegateについての問題（学習用）
+![AvatarMaker Storyboard](https://raw.githubusercontent.com/HiromichiYamada/AvatarMakerProblem/master/storyboard-screenshot.png)
 
 ## ブランチについて
 
